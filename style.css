@@ -1,3 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+}
+
 .image .content .kk{
     
     font-family: 'Garamond';
@@ -43,7 +51,85 @@
     background-color: #2196F3;
     
   }
+.produces{
+    
+    margin-right: 30px;
+    height: 150px;
+    border-radius: 16px;
+    background-color: #fff;
+}
+.img{
+    width: 141px;
+    height: 126.9px;
+}
+.product_list a{
+    width: 100%;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #333333;
+}
+.product_list .round-button{
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%; 
+    background-color: #007bff; 
+    border: none; 
+    color: #fff; 
+    font-size: 16px; 
+    top: 50%;
+    left: 50%;
+}
+.product_list .item{
+    font-size: 13px;
+    font-weight: 400;
+}
+.product_list .product-price{
+    display: block;
+    width: 100%;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #222222;
+}  
+.product_list .plus-button{
+    width: 40px; 
+    height: 40px;
+    border:; 
+    border-radius: 10%; 
+    background-color:#f5f4f4; 
+    color: #181818; 
+    font-size: 20px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 
-
-
-        
+}
+.container .side_bar .productS1_price{
+    display: block;
+    width: 100%;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #222222;
+}
+.owl_stage .stage{
+    height: 600px;
+    margin-left: 40px;
+    margin-top: 90px;
+    border-radius: 40px;
+}
+.owl_stage .stage .form-control{
+    width: 500px;
+    height: 60px;
+}
+.owl_stage .stage .check_box{
+    width: 400px;
+    height:20px;
+}
+.btn-warning{
+    background-color: rgba(255, 255, 255, 0.5);
+}
