@@ -135,7 +135,7 @@ body {
     background-color: rgba(255, 255, 255, 0.5);
 }
 .seart-bar{
-    background-color:#E8E8E8 ;
+    background-color:#f9f5f5 ;
     width: 603px;
     height:52px ;
     border-radius: 15px;
@@ -146,8 +146,21 @@ body {
     width: 40px; 
     height: 40px;
     border-radius: 50%; 
-    background-color: #9aa1a8; 
+    background-color: #f9f5f5; 
     border: none; 
     color: #fff; 
     font-size: 16px;
+}
+.icon{
+    fill: #747474;
+    stroke-width: 2;
+    width: 20px;
+    height: 20px;
+}
+
+.round-button .icons{
+    width: 24px; 
+        height: 24px;
+        stroke: #000; 
+        stroke-width: 10px; 
 }
